@@ -24,7 +24,6 @@ count_sort = count_sort.to_frame().reset_index()
 #print (count_sort)
 
 #%%
-import pandas as pd
 
 #2a opción Medio de transporte utilizado
 synergy_dataframe2 = pd.read_csv('synergy_logistics_database.csv',
@@ -46,7 +45,6 @@ count_sort2=count_sort2.to_frame().reset_index()
 #print (count_sort2)
 
 #%%
-import pandas as pd
 
 #3a opción Valor total de importaciones y exportaciones
 
